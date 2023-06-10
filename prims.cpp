@@ -76,7 +76,7 @@ void primMST(vector<vector<Edge>> &graph, int V)
 
 int main()
 {
-    int V = 6; // Number of vertices in the graph
+    int V = 5; // Number of vertices in the graph
 
     vector<vector<Edge>> graph(V);
 
@@ -89,7 +89,7 @@ int main()
     addEdge(graph, 2, 3, 5);
     addEdge(graph, 2, 5, 4);
     addEdge(graph, 3, 5, 2);
-    addEdge(graph, 4, 5, 6);
+    // addEdge(graph, 4, 5, 6);
 
     // Run Prim's algorithm
     primMST(graph, V);
